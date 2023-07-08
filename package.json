@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/openedx/edx-app-test",
   "dependencies": {
-    "appium": "^1.15.0"
+    "appium": "^1.22.3"
   }
 }
