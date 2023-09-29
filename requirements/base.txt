@@ -5,7 +5,7 @@
 #    make upgrade
 #
 appium-python-client==2.4.0
-    # via -r requirements/base.in
+    # via -r base.in
 async-generator==1.10
     # via
     #   trio
@@ -19,7 +19,7 @@ certifi==2022.6.15
     # via urllib3
 cffi==1.15.0
     # via cryptography
-cryptography==37.0.2
+cryptography==41.0.4
     # via
     #   pyopenssl
     #   urllib3
@@ -49,18 +49,18 @@ pysocks==1.7.1
     # via urllib3
 pytest==7.1.2
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   pytest-html
     #   pytest-metadata
 pytest-html==3.1.1
-    # via -r requirements/base.in
-pytest-metadata==2.0.1
+    # via -r base.in
+pytest-metadata==3.0.0
     # via pytest-html
 pyyaml==6.0
-    # via -r requirements/base.in
+    # via -r base.in
 selenium==4.3.0
     # via
-    #   -r requirements/base.in
+    #   -r base.in
     #   appium-python-client
 sniffio==1.2.0
     # via trio
